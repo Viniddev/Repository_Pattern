@@ -1,0 +1,24 @@
+[
+  {
+    "ContainingType": "App.Api.Controllers.V1.UserInformations",
+    "Method": "RegisterAsync",
+    "RelativePath": "api/usuarios",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registryInformation",
+        "Type": "App.Domain.ViewModel.UserInfo.RegisterInformation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

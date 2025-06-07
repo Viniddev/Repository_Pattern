@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_Desenvolvimento\\RepositoryPattern\\CleanRepositoryPattern\\App.Domain\\App.Domain.csproj",
+      "projectUniqueName": "C:\\_Desenvolvimento\\RefactorBack\\App.Domain\\App.Domain.csproj",
       "projectName": "App.Domain",
-      "projectPath": "C:\\_Desenvolvimento\\RepositoryPattern\\CleanRepositoryPattern\\App.Domain\\App.Domain.csproj",
+      "projectPath": "C:\\_Desenvolvimento\\RefactorBack\\App.Domain\\App.Domain.csproj",
       "packagesPath": "C:\\Users\\Diasv\\.nuget\\packages\\",
-      "outputPath": "C:\\_Desenvolvimento\\RepositoryPattern\\CleanRepositoryPattern\\App.Domain\\obj\\",
+      "outputPath": "C:\\_Desenvolvimento\\RefactorBack\\App.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

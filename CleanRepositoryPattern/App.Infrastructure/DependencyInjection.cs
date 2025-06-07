@@ -1,18 +1,17 @@
-﻿using App.Domain.Abstractions.Interfaces;
-using App.Domain.Repositories;
-using App.Infrastructure.Data.UnitOfWork;
-using App.Infrastructure.Repositories;
+﻿using App.Domain.Repository;
+using App.Domain.Services;
+using App.Infrastructure.Repository;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace App.Infrastructure;
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddInfrastructure(this IServiceCollection services) 
+    public static IServiceCollection AddInfrastructure(this IServiceCollection service) 
     {
-        services.AddTransient<IProductRepository, ProductRepository>();
-        services.AddTransient<IUnitOfWork, UnitOfWork>();
+        service.AddTransient<IUnitOfWork, UnitOfWork>();
+        service.AddTransient<IUserInformationsRepository, UserInformationsRepository>();
 
-        return services;
+        return service;
     }
 }

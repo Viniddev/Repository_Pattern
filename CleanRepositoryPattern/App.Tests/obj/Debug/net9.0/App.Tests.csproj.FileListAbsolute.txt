@@ -1,0 +1,11 @@
+C:\_Desenvolvimento\RefactorBack\App.Tests\bin\Debug\net9.0\App.Tests.deps.json
+C:\_Desenvolvimento\RefactorBack\App.Tests\bin\Debug\net9.0\App.Tests.dll
+C:\_Desenvolvimento\RefactorBack\App.Tests\bin\Debug\net9.0\App.Tests.pdb
+C:\_Desenvolvimento\RefactorBack\App.Tests\obj\Debug\net9.0\App.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Desenvolvimento\RefactorBack\App.Tests\obj\Debug\net9.0\App.Tests.AssemblyInfoInputs.cache
+C:\_Desenvolvimento\RefactorBack\App.Tests\obj\Debug\net9.0\App.Tests.AssemblyInfo.cs
+C:\_Desenvolvimento\RefactorBack\App.Tests\obj\Debug\net9.0\App.Tests.csproj.CoreCompileInputs.cache
+C:\_Desenvolvimento\RefactorBack\App.Tests\obj\Debug\net9.0\App.Tests.dll
+C:\_Desenvolvimento\RefactorBack\App.Tests\obj\Debug\net9.0\refint\App.Tests.dll
+C:\_Desenvolvimento\RefactorBack\App.Tests\obj\Debug\net9.0\App.Tests.pdb
+C:\_Desenvolvimento\RefactorBack\App.Tests\obj\Debug\net9.0\ref\App.Tests.dll

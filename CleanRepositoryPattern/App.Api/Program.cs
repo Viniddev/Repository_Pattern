@@ -1,23 +1,30 @@
-using App.Application;
-using App.Infrastructure;
-using App.Infrastructure.Data;
-using Microsoft.EntityFrameworkCore;
+using App.Api.Common;
+using App.Domain;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<AppDbContext>(x =>
-{
-    x.UseSqlServer(
-        builder.Configuration.GetConnectionString("DefaultConnection"),
-        b => b.MigrationsAssembly("App.Api")
-    );
-});
+builder.AddConfiguration();
 
-builder.Services.AddInfrastructure();
-builder.Services.AddApplication();
+builder.AddIntegration();
+
+builder.AddDocumentation();
+
+builder.AddCrossOrigin();
+
+builder.AddEndpointInfrastructure();
+
+//--------------------------------------------------------------//
 
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
+app.AddAppSecurity();
+
+if (app.Environment.IsDevelopment())
+    app.AddSwaggerDevExtensions();
+
+app.UseCors(Configuration.CorsPolicyName);
+
+app.AddAppInfrastructure();
 
 app.Run();
+

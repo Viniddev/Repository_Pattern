@@ -1,0 +1,11 @@
+C:\_Desenvolvimento\RefactorBack\App.Domain\bin\Debug\net9.0\App.Domain.deps.json
+C:\_Desenvolvimento\RefactorBack\App.Domain\bin\Debug\net9.0\App.Domain.dll
+C:\_Desenvolvimento\RefactorBack\App.Domain\bin\Debug\net9.0\App.Domain.pdb
+C:\_Desenvolvimento\RefactorBack\App.Domain\obj\Debug\net9.0\App.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Desenvolvimento\RefactorBack\App.Domain\obj\Debug\net9.0\App.Domain.AssemblyInfoInputs.cache
+C:\_Desenvolvimento\RefactorBack\App.Domain\obj\Debug\net9.0\App.Domain.AssemblyInfo.cs
+C:\_Desenvolvimento\RefactorBack\App.Domain\obj\Debug\net9.0\App.Domain.csproj.CoreCompileInputs.cache
+C:\_Desenvolvimento\RefactorBack\App.Domain\obj\Debug\net9.0\App.Domain.dll
+C:\_Desenvolvimento\RefactorBack\App.Domain\obj\Debug\net9.0\refint\App.Domain.dll
+C:\_Desenvolvimento\RefactorBack\App.Domain\obj\Debug\net9.0\App.Domain.pdb
+C:\_Desenvolvimento\RefactorBack\App.Domain\obj\Debug\net9.0\ref\App.Domain.dll

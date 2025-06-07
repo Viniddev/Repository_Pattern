@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>App.Api</name>
+    </assembly>
+    <members>
+        <member name="M:App.Api.Controllers.V1.UserInformations.RegisterAsync(App.Domain.Services.ICreateUserService,App.Domain.ViewModel.UserInfo.RegisterInformation,System.Threading.CancellationToken)">
+            <summary>
+            Handles user registration requests.
+            </summary>
+            <param name="userService">The user creation service.</param>
+            <param name="registryInformation">The registration information.</param>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>The result of the registration operation.</returns>
+        </member>
+    </members>
+</doc>
